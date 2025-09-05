@@ -1,25 +1,26 @@
 GIT
-  remote: https://github.com/ruby/rbs
-  revision: 8a97819d441960ed8429c676c33eadc7020b80e1
+  remote: https://github.com/soutaro/rbs-inline
+  revision: 3820614381d8d1775ecf7587d3964154a72bfc55
   specs:
-    rbs (4.0.0.dev.4)
-      logger
-      prism (>= 1.3.0)
-      tsort
+    rbs-inline (0.11.0)
+      prism (>= 0.29, < 1.3)
+      rbs (>= 3.5.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     logger (1.7.0)
-    prism (1.4.0)
-    tsort (0.2.0)
+    prism (1.2.0)
+    rbs (3.9.4)
+      logger
 
 PLATFORMS
   arm64-darwin-23
   ruby
 
 DEPENDENCIES
-  rbs!
+  rbs
+  rbs-inline!
 
 BUNDLED WITH
    2.7.1

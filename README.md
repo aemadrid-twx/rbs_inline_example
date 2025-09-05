@@ -48,3 +48,13 @@ ruby 3.2.7 (2025-02-04 revision 02ec315244) [arm64-darwin23]
 	Changelog: https://github.com/ruby/rbs/blob/master/CHANGELOG.md
 	Path: /Users/aemadrid/.local/share/mise/installs/ruby/3.2.7/lib/ruby/gems/3.2.0/bundler/gems/rbs-8a97819d4419
 ```
+
+## rbs-inline attempt
+
+I also tried using the `rbs-inline` gem, but it doesn't seem to work either.
+
+```shell
+❯ bin/rbs-inline --base lib --output sig/generated --verbose
+D, [2025-09-05T11:27:57.325793 #85649] DEBUG -- : base_paths = lib, output_path = sig/generated
+🎉 Generated 0 RBS files under sig/generated
+```
