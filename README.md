@@ -13,7 +13,7 @@ class Calculator
 end
 ```
 
-And running this command:
+And after running this command:
 
 ```shell
 bin/rbs prototype rb lib/calculator.rb > sig/lib/calculator.rbs
@@ -35,7 +35,7 @@ class Calculator
 end
 ```
 
-All this with the currents specs:
+All this with the current specs:
 
 ```shell
 ❯ ruby --version
