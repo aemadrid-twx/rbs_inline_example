@@ -1,0 +1,4 @@
+class Calculator
+  # @rbs (Integer, Integer) -> Integer
+  def add: (untyped a, untyped b) -> untyped
+end

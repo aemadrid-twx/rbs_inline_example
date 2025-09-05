@@ -1,0 +1,25 @@
+GIT
+  remote: https://github.com/ruby/rbs
+  revision: 8a97819d441960ed8429c676c33eadc7020b80e1
+  specs:
+    rbs (4.0.0.dev.4)
+      logger
+      prism (>= 1.3.0)
+      tsort
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    logger (1.7.0)
+    prism (1.4.0)
+    tsort (0.2.0)
+
+PLATFORMS
+  arm64-darwin-23
+  ruby
+
+DEPENDENCIES
+  rbs!
+
+BUNDLED WITH
+   2.7.1
